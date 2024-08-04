@@ -1,0 +1,11 @@
+.about-image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 4px solid #309f77;
+  transform: translate(10px, 10px);
+  z-index: 1;
+}
