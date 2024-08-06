@@ -13,7 +13,7 @@ const Project: React.FC<ProjectProps> = ({
   liveSiteLink,
 }) => {
   return (
-    <div className="relative group h-[40vh]">
+    <div className="relative group md:h-[40vh]">
       <img src={img} alt={title} className="w-full h-full object-cover" />
       <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 transition-opacity duration-300 rounded-md">
         <h3 className="text-white text-lg font-bold mb-2">{title}</h3>

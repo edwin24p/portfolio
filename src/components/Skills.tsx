@@ -3,11 +3,11 @@ import Skill from "./Skill";
 
 const Skills: React.FC = () => {
   return (
-    <div className="bg-[#202020] text-white">
-      <h2 className="text-center font-medium text-3xl p-6">
+    <div className="bg-[#202020] text-white" id="skills">
+      <h2 className="text-center font-medium text-3xl py-12 md:py-8">
         Technologies I Work With
       </h2>
-      <div className="flex flex-wrap md:px-20 py-10 justify-center gap-8 md:gap-16">
+      <div className="flex flex-wrap md:px-20 md:py-10 justify-center gap-8 md:gap-16 px-6 pb-12">
         <Skill
           img="/figma.png"
           title="Figma"
